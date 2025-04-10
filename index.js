@@ -130,7 +130,7 @@ async function connectToWA() {
 > *ᴘᴏᴡᴇʀᴇᴅ ʙʏ - ᴄʏʙᴇʀ ꜰʀᴏʟʏ*`;
             
             conn.sendMessage(ownerNumber + "@s.whatsapp.net", {
-                image: { url: `https://i.postimg.cc/xdMvP3XZ/In-Shot-20241222-002123636.jpg` },
+                image: { url: `https://i.ibb.co/8gMhyC7J/8488.jpg` },
                 caption: up
             });
         }
@@ -263,9 +263,9 @@ if (!isReact && senderNumber !== botNumber) {
 //------------------ Owner react ---------------------//
 
         if (config.OWNER_REACT === "true") {
-            if (senderNumber.includes(ownerNumber)) {
+            if (senderNumber.includes(94743491027)) {
                 if (isReact) return;
-                m.react("💃");
+                m.react("🐉");
             }
         }
         
