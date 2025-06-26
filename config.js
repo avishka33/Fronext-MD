@@ -6,7 +6,7 @@ function convertToBool(text, fault = 'true') {
 }
 
 module.exports = {
-    SESSION_ID: process.env.SESSION_ID || 'PRABATH-MD~sitF0JAI#uWXKD_qBoJNnefJM50u7iMg7efI1zXrAqFKgkCCc0so',
+    SESSION_ID: process.env.SESSION_ID || 'sitF0JAI#uWXKD_qBoJNnefJM50u7iMg7efI1zXrAqFKgkCCc0so',
     MONGODB: process.env.MONGODB || 'mongodb+srv://udavin56:1234@cluster0.urhma.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0',
     AUTO_VOICE:"true"
 };
